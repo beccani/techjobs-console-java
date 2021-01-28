@@ -102,10 +102,6 @@ public class JobData {
                     jobs.add(row);
                 }
             }
-            // uses the containsValue() method because we are iterating through HashMaps
-//            if (row.containsValue(searchValue)) {
-//                jobs.add(row);
-//            }
         }
         return jobs;
     }
